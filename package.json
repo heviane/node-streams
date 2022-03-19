@@ -1,0 +1,31 @@
+{
+  "name": "node-streams",
+  "version": "1.0.0",
+  "description": "Working with on-demand data with Node streams",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "client": "nodemon src/client.js",
+    "server": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heviane/node-streams.git"
+  },
+  "keywords": [
+    "Node",
+    "Streams"
+  ],
+  "author": "Heviane Bastos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heviane/node-streams/issues"
+  },
+  "homepage": "https://github.com/heviane/node-streams#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
